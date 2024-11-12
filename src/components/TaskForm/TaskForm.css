@@ -1,0 +1,70 @@
+.task-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 24px;
+
+  background-color: #f6f8fc;
+  border-radius: 16px;
+
+  -webkit-box-shadow: 4px 4px 14px 3px rgba(34, 60, 80, 0.1);
+  -moz-box-shadow: 4px 4px 14px 3px rgba(34, 60, 80, 0.1);
+  box-shadow: 4px 4px 14px 3px rgba(34, 60, 80, 0.1);
+}
+
+.task-form__select {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.task-form__select > select {
+  cursor: pointer;
+  height: 32px;
+  border-radius: 8px;
+  background-color: #bcbbda;
+  border: none;
+}
+
+.task-form__title > input {
+  color: #616085;
+  width: 240px;
+  height: 38px;
+
+  background-color: #f6f8fc;
+  border: 1px solid #bcbbda;
+  border-radius: 8px;
+
+  padding: 10px 20px;
+}
+
+.task-form__title > textarea:focus,
+.task-form__title > textarea:active,
+.task-form__description > input:focus,
+.task-form__description > input:active {
+  outline: none;
+  border: 1px solid #bcbbda;
+}
+
+.task-form__description > textarea {
+  color: #616085;
+  background-color: #f6f8fc;
+  border: 1px solid #bcbbda;
+  border-radius: 8px;
+
+  padding: 10px 20px;
+  max-height: 200px;
+  min-height: 40px;
+  min-width: 240px;
+  max-width: 240px;
+}
+
+.task-form > form > button {
+  cursor: pointer;
+  height: 42px;
+
+  width: 160px;
+  border-radius: 8px;
+  background-color: #bcbbda;
+  border: none;
+}
